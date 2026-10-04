@@ -4,7 +4,7 @@
 The `parrot-protocol-worker` skill for the Worker class: one `SKILL.md`, installed on every Worker agent as a locked, always-on skill.
 
 ## Owns
-- `SKILL.md`: vendored byte-for-byte from `parrot-protocol` at the commit in `skills/PARROT_PIN.toml`.
+- `SKILL.md`: vendored byte-for-byte from `parrot-protocol` at the version in `skills/PARROT_PIN.toml`.
 
 ## Does Not Own
 - Any edit (fixes go to the parrot repo), the module-standard rules (sibling skill).

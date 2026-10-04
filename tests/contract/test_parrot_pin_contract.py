@@ -25,7 +25,7 @@ class ParrotPinContract(unittest.TestCase):
         with open(os.path.join(ROOT, 'skills', 'PARROT_PIN.toml'), 'rb') as f:
             pin = tomllib.load(f)
         self.assertEqual(len(pin['files']), 3)
-        self.assertRegex(pin['source_commit'], r'^[0-9a-f]{40}$')
+        self.assertRegex(pin['source_version'], r'^[0-9]+\.[0-9]+\.[0-9]+$')
 
     def test_vendored_files_match_the_pin(self):
         self.assertEqual(check_pin(ROOT), [], 'vendored Parrot skill drifted: fix in the Parrot repo, then re-vendor (ADR-008)')

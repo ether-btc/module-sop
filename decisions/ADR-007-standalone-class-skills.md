@@ -2,7 +2,7 @@
 
 **Status:** accepted
 **Date:** 2026-09-24
-**Approved by:** Commander (2026-09-24 ~19:2xZ): "every agent needs a clean stand allone skill that does not reference anything else except the other skills that are needed ... the original SOP's just say 'Work Order' which is fine" and "so workers, IT Managers, and Project Leaders ... can just load a skill, they know what to do without reading anything else."
+**Approved by:** Commander. The ruling: every agent needs a clean, standalone skill that references nothing except the other skills it needs (the SOPs' own term "work order" stays as it is), so a worker, an IT manager or a project leader can load one skill and know what to do without reading anything else.
 
 ## Context
 ADR-001 shipped each skill as the SOP's checklist plus the full SOPs as reference files. The Commander found that this points agents at documents they do not need, workers in particular.

@@ -2,7 +2,7 @@
 
 **Status:** superseded by ADR-007
 **Date:** 2026-09-24
-**Approved by:** Commander (WO-001; the Commander's word; review ruling: "no changes")
+**Approved by:** Commander
 
 ## Context
 The Commander wrote the SOPs with expert and cross-model review and ruled that they need no changes. An always-on skill loads on every task, so its body has to be small.

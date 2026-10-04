@@ -2,10 +2,9 @@
 
 **Status:** accepted
 **Date:** 2026-09-24
-**Approved by:** Commander:
-- "every module probably needs an agents.md and probably a readme along with all levels of sub modules which the agents need to read before working on it ... and those documents get updated every time code changes in that module and set of sub modules."
-- Tests that fail loudly if they aren't updated.
-- "Proceed!": "when a worker works on the code, they will see the test fail and say ... this other test that is for the agents.md and readme failed! I should see why and read the files again."
+**Approved by:** Commander. The ruling:
+- Every module, at every level of sub-module, has an `AGENTS.md` and a `README.md` that agents read before working on it, and both are updated whenever code in that module or its sub-modules changes.
+- Tests fail loudly when they are not updated, so a worker who changes code sees the docs test fail and goes back to read the files again.
 
 ## Context
 A module card (`AGENTS.md`) is the fence a worker is measured against. Nothing checked that the card still matched the registry or the code. Nothing gave humans and agents a plain explanation of what a module actually does. And nothing noticed when code moved on and its docs didn't.

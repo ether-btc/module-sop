@@ -2,7 +2,7 @@
 
 **Status:** accepted
 **Date:** 2026-09-24
-**Approved by:** Commander (WO-001)
+**Approved by:** Commander
 
 ## Context
 MODULE SOP section 9 lists the automated checks. This repo is small: four stdlib Python scripts, and no third-party packages by design. Not every named tool fits.
@@ -15,7 +15,7 @@ MODULE SOP section 9 lists the automated checks. This repo is small: four stdlib
 | 9.3 write-scope | **Deferred**: needs a work-order diff runner; so far the only WO is whole-repo scope. |
 | 9.4 duplicate detection | **Deferred**: 4 small scripts. Reuse was handled manually (one shared `sections.py` for build + verify). |
 | 9.5 test run | **Implemented**: `python3 -m unittest discover -s tests -t .` |
-| 9.6 mutation | **Manual**: hand-made mutants recorded in the work order (WO-001: M1 and M2, each killed by its guard test). mutmut is not used (stdlib-only). |
+| 9.6 mutation | **Manual**: hand-made mutants recorded in the change's work order, each killed by its guard test. mutmut is not used (stdlib-only). |
 | 9.7 test integrity | **Deferred**: needs a WO diff runner (same as 9.3). |
 | CI (12.1) | **Deferred**: no CI runner configured on the git host for this repo; the checks run from the command line (allowed by 12.3). |
 

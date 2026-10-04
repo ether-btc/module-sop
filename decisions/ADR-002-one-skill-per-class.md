@@ -5,7 +5,7 @@
 **Approved by:** Commander (the Commander's word)
 
 ## Context
-The Commander's rule for the Parrot Protocol: "each skill stand alone ... I only need to load in one skill per agent per class". The Commander also said: "Project Leader skills should be 2 skills total. [Both IT managers] get the ITM skills 2 skills total. all workers get worker skills 2 skills total." (Square brackets mark words replaced for this public copy.)
+The Commander's rule, first set for the Parrot Protocol: each skill stands alone, and an agent loads one skill per class. Every agent therefore carries exactly two class skills: the project leader, each IT manager and every worker.
 
 ## Decision
 Three skills here: `module-sop-project-leader`, `module-sop-itm`, `module-sop-worker`. Each agent installs its class's skill from this repo plus `parrot-protocol-<class>` from `parrot-protocol`. No agent needs anything else from either repo.

@@ -5,7 +5,7 @@ The packaged agent skills, one sub-module per agent class. Installed on agents a
 
 ## Owns
 - `project-leader/`, `itm/`, `worker/` (sub-modules): one class pack each, holding the class's two skills.
-- `PARROT_PIN.toml`: the source commit and sha256 of every vendored Parrot skill (ADR-008).
+- `PARROT_PIN.toml`: the source version and sha256 of every vendored Parrot skill (ADR-008).
 
 ## Does Not Own
 - The rules' source text (module `docs`).

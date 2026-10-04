@@ -2,7 +2,7 @@
 
 **Status:** accepted
 **Date:** 2026-09-24
-**Approved by:** Commander (WO-001)
+**Approved by:** Commander
 
 ## Context
 The repo holds three different kinds of thing:

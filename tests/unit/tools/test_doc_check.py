@@ -87,6 +87,10 @@ class CardFindingsTest(_Scratch):
 class FreshnessTest(_Scratch):
     def setUp(self):
         super().setUp()
+        # A work order for the waiver tests to write into; the repo itself ships none.
+        os.makedirs(os.path.join(self.repo, 'workorders'), exist_ok=True)
+        with open(os.path.join(self.repo, 'workorders', 'WO-900-fixture.md'), 'w') as f:
+            f.write('# WO-900: test fixture\n')
         git(self.repo, 'init', '-q')
         self.commit('base')
 
@@ -139,11 +143,11 @@ class FreshnessTest(_Scratch):
 
     def test_waiver_in_a_changed_work_order_passes(self):
         self.append('tools/sections.py', '\n# touched\n')
-        self.append('workorders/WO-001-project-setup.md', '\nREADME waiver: tools: comment-only change\n')
+        self.append('workorders/WO-900-fixture.md', '\nREADME waiver: tools: comment-only change\n')
         self.assertEqual(self.found(), [])
 
     def test_waiver_left_in_an_old_work_order_does_not_count(self):
-        self.append('workorders/WO-001-project-setup.md', '\nREADME waiver: tools: an old slice\n')
+        self.append('workorders/WO-900-fixture.md', '\nREADME waiver: tools: an old slice\n')
         self.commit('old slice')
         self.append('tools/sections.py', '\n# touched\n')
         self.assertIn('tools: you changed code', '\n'.join(self.found()))

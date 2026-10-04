@@ -31,7 +31,6 @@ Each agent carries two class skills: this repo's `module-sop-<class>`, and `parr
 - **`docs/`** is the Commander's SOP set: the five `*_SOP.md` files, as the Commander wrote or approved them. `docs/AGENTS.md` is that folder's module card, not an SOP, so a byte-for-byte check covers the five SOP files only.
 - **Setup and records:**
   - `APPROVALS.md`, `SMOKE_TEST.md`.
-  - `workorders/WO-001-project-setup.md`, plus later work orders (not shipped individually) that added module nesting support and per-module docs.
 - **Generated, never hand-edited:** `MODULE_MAP.md`, `.sop/function_index.json`. The skills are authored under review (ADR-007).
 - **Checks:**
   - `python3 tools/skill_lint.py`

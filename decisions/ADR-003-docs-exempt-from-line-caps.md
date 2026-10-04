@@ -2,7 +2,7 @@
 
 **Status:** accepted
 **Date:** 2026-09-24
-**Approved by:** Commander (WO-001)
+**Approved by:** Commander
 
 ## Context
 MODULE SOP 9.1 caps files at 500 lines. `docs/MODULE_SOP.md` is 775 lines.

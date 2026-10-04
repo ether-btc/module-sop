@@ -1,6 +1,6 @@
 # Smoke Test: module-sop
 
-**Approved by:** Commander (WO-001)
+**Approved by:** Commander
 
 ## Scripted (run by the project leader before handoff)
 - [ ] `python3 tools/skill_lint.py` → RESULT PASS (standalone + verbatim anchors)

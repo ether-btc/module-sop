@@ -2,7 +2,7 @@
 
 **Status:** accepted, amended 2026-09-30 (the repository is published as a clean release; the install boundary is unchanged)
 **Date:** 2026-09-24
-**Approved by:** Commander (WO-001)
+**Approved by:** Commander
 
 ## Context
 Skills are installed per agent: into each agent harness's own skill folder, locked read-only (with whatever the operating system or the harness provides), and named in an always-on line of that agent's standing instruction file. All of that depends on harnesses, paths and hosts specific to each deployment.
