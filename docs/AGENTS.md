@@ -1,7 +1,7 @@
 # Module: docs
 
 ## Purpose
-Holds the Commander's SOP set exactly as he wrote it. Everything else in this repo is derived from these files.
+Holds the Commander's SOP set exactly as written. Everything else in this repo is derived from these files.
 
 ## Owns
 - `MODULE_SOP.md` (master), `COMMANDER_SOP.md`, `PROJECT_LEADER_SOP.md`, `IT_MANAGER_SOP.md`, `WORKER_SOP.md`
@@ -17,7 +17,7 @@ Holds the Commander's SOP set exactly as he wrote it. Everything else in this re
 - nothing
 
 ## Invariants
-- The text is the Commander's, byte for byte. Only he changes it, and every change bumps its version.
+- The text is the Commander's, byte for byte. Only the Commander changes it, and every change bumps its version.
 - The class SOPs keep the `## Quick Reference` and `## One-Paragraph Version` headings. The skills quote them verbatim; renaming one fails the gate loudly.
 
 ## Test Locations

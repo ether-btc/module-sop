@@ -6,7 +6,7 @@ It is the source of truth the class skills are written from.
 
 **How it works.**
 - Only the Commander changes these files, and every change bumps that SOP's `**Version:**` line.
-- The five SOP files are the Commander's text, or an amendment he approved by merging it; nothing here is paraphrased or summarised.
+- The five SOP files are the Commander's text, or an amendment the Commander approved by merging it; nothing here is paraphrased or summarised.
 - `AGENTS.md` in this folder is the module card, not an SOP.
 - The skills gate (`tools/skill_lint.py`) checks each class skill's Quick Reference and One-Paragraph Version against these
   files word for word, so a change here is caught in the skills until they are updated to match.

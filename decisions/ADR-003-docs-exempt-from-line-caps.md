@@ -11,7 +11,7 @@ MODULE SOP 9.1 caps files at 500 lines. `docs/MODULE_SOP.md` is 775 lines.
 `docs` is registered with `line_cap_exempt = true`. The caps apply to code (`.py`, `.sh`) in every other module.
 
 ## Reasons
-- The SOPs are the Commander's verbatim text. Splitting one changes it, and only he changes it.
+- The SOPs are the Commander's verbatim text. Splitting one changes it, and only the Commander changes it.
 - The caps exist to keep code slices small for agents, not to reshape human-authored standards.
 
 ## Consequences

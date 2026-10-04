@@ -57,7 +57,7 @@ n/a (new project)
 
 ---
 ## Readback Rounds
-**None before the first build. That is a process gap, recorded here, not hidden.** The project leader built directly from the Commander's intent instead of parroting a plan back first. The Commander's review (Bounce-Backs below) caught what a readback would have: the skills pointed at other documents. The rework was read back to the Commander by voice before building (2026-09-24 ~19:2xZ): "every class skill will stand on its own ... work order stays work order ... your checklist and your one paragraph version stay word for word". He confirmed with the clean-release instruction.
+**None before the first build. That is a process gap, recorded here, not hidden.** The project leader built directly from the Commander's intent instead of parroting a plan back first. The Commander's review (Bounce-Backs below) caught what a readback would have: the skills pointed at other documents. The rework was read back to the Commander by voice before building (2026-09-24 ~19:2xZ): "every class skill will stand on its own ... work order stays work order ... your checklist and your one paragraph version stay word for word". The Commander confirmed with the clean-release instruction.
 
 ## Advisor Consults
 | # | Asked by | Question | Advisor answer | Action taken |
@@ -122,7 +122,7 @@ n/a (new project)
 
 ## Sign-Off
 - **The IT manager, non-author, 2026-09-24 ~20:17Z: CONFIRMED 5/5 at the pre-merge revision.**
-  - Legs: docs byte-identical to her own SOP copy; the ITM skill standalone when read as the consumer; the fidelity gate watched failing twice; the vendored Parrot skills against her own clone at the pinned revision; 38 tests.
+  - Legs: docs byte-identical to the IT manager's own SOP copy; the ITM skill standalone when read as the consumer; the fidelity gate watched failing twice; the vendored Parrot skills against the IT manager's own clone at the pinned revision; 38 tests.
   - Observations:
     - O1: the `docs/AGENTS.md` note is added to the README.
     - O3: the fidelity gate's scope is noted in `tools/AGENTS.md`.

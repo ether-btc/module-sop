@@ -5,7 +5,7 @@
 **Approved by:** Commander (WO-001)
 
 ## Context
-Skills are installed per agent: Claude Code and Hermes folders, locking (read-only, `chattr +i`, Hermes curator pin) and always-on lines (CLAUDE.md / SOUL.md). All of that depends on paths and hosts specific to each deployment.
+Skills are installed per agent: into each agent harness's own skill folder, locked read-only (with whatever the operating system or the harness provides), and named in an always-on line of that agent's standing instruction file. All of that depends on harnesses, paths and hosts specific to each deployment.
 
 ## Decision
 - This repo produces and verifies the skills only.

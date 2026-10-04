@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.1] — 2026-10-04
+- Wording only. References to people are gender-neutral ("the Commander",
+  "the IT manager") in the README, this changelog, the smoke test, the
+  decision records, the `docs/` folder card and README, and the setup work
+  order.
+- ADR-004 describes the install boundary without naming any particular
+  agent harness.
+- The five SOP texts and the six skills are unchanged byte for byte, so
+  installed skills do not need updating.
+
 ## [1.0.0] — 2026-10-01 (first public release)
 - First release on GitHub. Public version numbers start here; this is the
   official version from now on.
@@ -25,7 +35,7 @@ numbers are pre-release numbers, not public releases.
 - The three `module-sop-<class>` skills mirror it. WO-001 records project setup; the module-nesting-and-docs work (v1.2.0 below) landed with the Commander's merge of PR #1.
 
 ### Pre-release 1.2.0 — 2026-09-24 (same PR, for the Commander's review — module nesting and per-module docs)
-- **SOP amendment, lands only on the Commander's merge.** Versions: MODULE SOP 1.8.0, PROJECT LEADER 1.4.0, IT MANAGER 1.3.0, WORKER 1.3.0; COMMANDER unchanged. Implements his rulings:
+- **SOP amendment, lands only on the Commander's merge.** Versions: MODULE SOP 1.8.0, PROJECT LEADER 1.4.0, IT MANAGER 1.3.0, WORKER 1.3.0; COMMANDER unchanged. Implements the Commander's rulings:
   - modules nest to any depth on a folder tree;
   - IT managers create sub-modules at any depth, with notification, setup in the same commit;
   - workers create a sub-module inside an existing sub-module only with IT manager permission;
