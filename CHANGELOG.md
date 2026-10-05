@@ -8,6 +8,8 @@
     (`from . import x` names the sibling).
   - `skill_lint.py --file` without `--class` (or with an unknown class) is
     a usage error (exit 2), not a traceback.
+  - `sop_check.py` exempts pytest's cache directory via `non_module_dirs`,
+    so running pytest in a checkout no longer turns the registry gate red.
   - Each fix carries red-arm tests (`tests/unit/tools/`).
 
 ## [1.0.2] — 2026-10-04

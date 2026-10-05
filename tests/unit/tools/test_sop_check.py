@@ -25,6 +25,11 @@ class SopCheckTest(unittest.TestCase):
         os.mkdir(os.path.join(self.repo, 'skills', 'rogue'))
         self.assertIn('unregistered sub-folder: skills/rogue', check(self.repo)[0])
 
+    def test_non_module_dirs_entry_is_exempt(self):
+        os.mkdir(os.path.join(self.repo, '.pytest_cache'))
+        fails, _ = check(self.repo)
+        self.assertEqual(fails, [], 'a dir listed in non_module_dirs must not fail the registry check')
+
     def _set_depends(self, block, value):
         p = os.path.join(self.repo, 'modules.toml')
         text = open(p).read()
